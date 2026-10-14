@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "label": "Find satellite scenes",
+    "log": "Discovered candidate Sentinel-1 radar scenes covering AOI",
+    "durationMs": 900,
+    "mock": true
+  },
+  {
+    "id": 2,
+    "label": "Download and clip",
+    "log": "Retrieved satellite scenes and clipped to bounding box",
+    "durationMs": 1300,
+    "mock": true
+  },
+  {
+    "id": 3,
+    "label": "Preprocess radar",
+    "log": "Calibrated backscatter and co-registered radar pair",
+    "durationMs": 1500,
+    "mock": true
+  },
+  {
+    "id": 4,
+    "label": "Detect change",
+    "log": "Generated radar backscatter difference map",
+    "durationMs": 1400,
+    "mock": true
+  },
+  {
+    "id": 5,
+    "label": "Remove terrain false positives",
+    "log": "Applied terrain elevation and slope filters to mask false positives",
+    "durationMs": 1100,
+    "warning": "Low-confidence patches flagged for review",
+    "mock": true
+  },
+  {
+    "id": 6,
+    "label": "Fetch pre-event OSM",
+    "log": "Loaded pre-event OSM snapshot for infrastructure layers",
+    "durationMs": 900,
+    "mock": true
+  },
+  {
+    "id": 7,
+    "label": "Estimate damage",
+    "log": "Intersected infrastructure layers with detected change areas",
+    "durationMs": 1000,
+    "mock": true
+  },
+  {
+    "id": 8,
+    "label": "Cut-off analysis",
+    "log": "Evaluated road network connectivity from settlements to nearest critical facilities",
+    "durationMs": 1100,
+    "mock": true
+  },
+  {
+    "id": 9,
+    "label": "Generate report",
+    "log": "Generated situation report in English and Nepali",
+    "durationMs": 800,
+    "mock": true
+  }
+]

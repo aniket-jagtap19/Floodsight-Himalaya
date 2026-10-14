@@ -1,0 +1,23 @@
+[
+  {
+    "runId": "run_2026-08-26_trishuli_a41f",
+    "areaName": "Trishuli–Bhote Koshi corridor",
+    "eventDate": "2026-08-26",
+    "floodedKm2": 6.8,
+    "cutOff": 4
+  },
+  {
+    "runId": "run_2026-07-11_melamchi_7c02",
+    "areaName": "Melamchi valley",
+    "eventDate": "2026-07-11",
+    "floodedKm2": 3.1,
+    "cutOff": 2
+  },
+  {
+    "runId": "run_2026-06-30_marsyangdi_19bd",
+    "areaName": "Upper Marsyangdi",
+    "eventDate": "2026-06-30",
+    "floodedKm2": 2.4,
+    "cutOff": 1
+  }
+]

@@ -1,0 +1,74 @@
+Metadata-Version: 2.4
+Name: floodsight-backend
+Version: 0.1.0
+Summary: FastAPI backend for FloodSight Himalaya
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: uvicorn[standard]>=0.29.0
+Requires-Dist: pydantic>=2.6.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: anthropic>=0.50.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Requires-Dist: ruff>=0.3.0; extra == "dev"
+
+# FloodSight Himalaya — Backend API & Pipeline
+
+FastAPI backend service for FloodSight Himalaya (Track B: mapping flood damage from satellite data).
+
+## Purpose
+
+The backend coordinates satellite data ingestion, geospatial flood detection pipelines, infrastructure damage assessments, and reporting services. It exposes REST API endpoints adhering to the data contract consumed by the frontend.
+
+## Setup & Running
+
+```bash
+# 1. Create and activate a Python virtual environment (Python 3.11+)
+cd backend
+python -m venv .venv
+source .venv/bin/activate  # On Windows PowerShell: .\.venv\Scripts\Activate.ps1
+
+# 2. Install dependencies in editable mode with dev tools
+pip install -e ".[dev]"
+
+# 3. Configure environment variables (optional for local mock mode)
+cp .env.example .env
+
+# 4. Start the backend development server
+uvicorn app.main:app --reload --port 8000
+```
+
+## Running Tests & Linting
+
+```bash
+# Run the test suite
+pytest
+
+# Run linter
+ruff check .
+
+# Auto-format
+ruff format .
+```
+
+## REST API Endpoints
+
+| Method | Endpoint | Description | Status Code |
+| :--- | :--- | :--- | :--- |
+| `GET` | `/api/health` | Service health check | `200` |
+| `POST` | `/api/analyze` | Start a new flood damage analysis | `202` (or `422` validation error) |
+| `GET` | `/api/runs/{runId}/status` | Poll run lifecycle state (`queued`, `running`, `succeeded`, `failed`) and step progress | `200` (or `404`) |
+| `GET` | `/api/runs/{runId}/result` | Retrieve full verified `RunResult` (GeoJSON layers, KPIs, cut-offs) | `200` (or `404`) |
+| `GET` | `/api/runs` | List recent runs | `200` |
+| `POST` | `/api/runs/{runId}/ask` | Copilot grounded Q&A (*501 until implemented*) | `501` |
+| `GET` | `/api/runs/{runId}/report` | Situation report data (*501 until implemented*) | `501` |
+
+## Permanent Scientific Integrity Rules
+
+- **Validation-only sources**: Copernicus EMS (EMSR927), UNOSAT products, published damage maps, and post-event OSM edits are never used as pipeline inputs.
+- **No invented claims**: Any metric or geometry not computed by real analysis code is explicitly marked as `mock`.
+- **Area-agnostic**: No hardcoded case-study coordinates, dates, village names, or damage thresholds in reusable code paths.

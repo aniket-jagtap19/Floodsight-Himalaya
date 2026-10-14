@@ -1,0 +1,1808 @@
+{
+  "runId": "run_2026-08-26_trishuli_a41f",
+  "bbox": [85.12, 27.9, 85.42, 28.3],
+  "areaName": "Trishuli–Bhote Koshi corridor, Nepal",
+  "eventDate": "2026-08-26",
+  "osmSnapshotDate": "2026-07-27",
+  "scenes": [
+    {
+      "id": "S1A_20260814",
+      "sensor": "Sentinel-1A",
+      "role": "before",
+      "date": "2026-08-14",
+      "orbit": "Ascending track 85",
+      "cloudCover": null
+    },
+    {
+      "id": "S2B_20260822",
+      "sensor": "Sentinel-2B",
+      "role": "optical",
+      "date": "2026-08-22",
+      "orbit": "Relative orbit 19",
+      "cloudCover": 71
+    },
+    {
+      "id": "EVENT",
+      "sensor": "Event",
+      "role": "event",
+      "date": "2026-08-26",
+      "orbit": "",
+      "cloudCover": null
+    },
+    {
+      "id": "S1A_20260826",
+      "sensor": "Sentinel-1A",
+      "role": "after",
+      "date": "2026-08-26",
+      "orbit": "Ascending track 85",
+      "cloudCover": null
+    },
+    {
+      "id": "S2A_20260829",
+      "sensor": "Sentinel-2A",
+      "role": "optical",
+      "date": "2026-08-29",
+      "orbit": "Relative orbit 19",
+      "cloudCover": 34
+    }
+  ],
+  "floodPolygons": [
+    {
+      "id": "F-1",
+      "type": "main",
+      "confidence": 0.86,
+      "coordinates": [
+        [
+          [85.38684, 28.28431],
+          [85.38513, 28.27831],
+          [85.38295, 28.27249],
+          [85.38029, 28.26683],
+          [85.37829, 28.26094],
+          [85.3764, 28.255],
+          [85.37521, 28.24885],
+          [85.37288, 28.24318],
+          [85.37234, 28.23684],
+          [85.37051, 28.23095],
+          [85.36982, 28.22467],
+          [85.36997, 28.2181],
+          [85.36525, 28.21335],
+          [85.36426, 28.20747],
+          [85.36199, 28.20181],
+          [85.36192, 28.19552],
+          [85.35963, 28.18987],
+          [85.35594, 28.18461],
+          [85.35586, 28.17766],
+          [85.35206, 28.17423],
+          [85.35016, 28.17084],
+          [85.34873, 28.16716],
+          [85.34523, 28.16473],
+          [85.34373, 28.1611],
+          [85.34206, 28.15747],
+          [85.33991, 28.1529],
+          [85.33613, 28.14945],
+          [85.33301, 28.14557],
+          [85.33025, 28.14147],
+          [85.32964, 28.13598],
+          [85.32732, 28.13096],
+          [85.32321, 28.12655],
+          [85.31951, 28.1224],
+          [85.31504, 28.11895],
+          [85.31082, 28.11526],
+          [85.30637, 28.11178],
+          [85.30402, 28.10635],
+          [85.29968, 28.10094],
+          [85.294, 28.09689],
+          [85.28846, 28.0927],
+          [85.28395, 28.08756],
+          [85.2789, 28.08291],
+          [85.27418, 28.078],
+          [85.2699, 28.07284],
+          [85.26472, 28.06845],
+          [85.26063, 28.06308],
+          [85.25623, 28.05799],
+          [85.251, 28.05365],
+          [85.24656, 28.0487],
+          [85.2434, 28.04329],
+          [85.23879, 28.03888],
+          [85.23513, 28.03375],
+          [85.23191, 28.02828],
+          [85.2275, 28.02372],
+          [85.22446, 28.01816],
+          [85.22212, 28.01222],
+          [85.21796, 28.00759],
+          [85.2149, 28.00214],
+          [85.21197, 27.9966],
+          [85.20845, 27.99149],
+          [85.20375, 27.98725],
+          [85.19941, 27.98275],
+          [85.1956, 27.97785],
+          [85.19219, 27.97266],
+          [85.18866, 27.96756],
+          [85.18407, 27.96323],
+          [85.18042, 27.95824],
+          [85.17707, 27.95434],
+          [85.17479, 27.94966],
+          [85.17099, 27.94607],
+          [85.16794, 27.94194],
+          [85.16534, 27.93748],
+          [85.16179, 27.93371],
+          [85.15819, 27.9363],
+          [85.16049, 27.94097],
+          [85.16437, 27.94451],
+          [85.16687, 27.94903],
+          [85.16994, 27.95315],
+          [85.17145, 27.95839],
+          [85.17508, 27.96212],
+          [85.17895, 27.96699],
+          [85.18264, 27.97197],
+          [85.18592, 27.97726],
+          [85.18972, 27.98216],
+          [85.19198, 27.98819],
+          [85.19624, 27.99276],
+          [85.19906, 27.99838],
+          [85.20296, 28.00321],
+          [85.20842, 28.00689],
+          [85.21118, 28.01256],
+          [85.21502, 28.01743],
+          [85.21923, 28.02208],
+          [85.22358, 28.02673],
+          [85.22784, 28.0314],
+          [85.23158, 28.03648],
+          [85.23581, 28.04117],
+          [85.23978, 28.04606],
+          [85.2429, 28.05175],
+          [85.24786, 28.05648],
+          [85.25172, 28.06205],
+          [85.25596, 28.06729],
+          [85.26077, 28.07201],
+          [85.26436, 28.07782],
+          [85.26962, 28.08218],
+          [85.27314, 28.08829],
+          [85.27882, 28.09235],
+          [85.28263, 28.09815],
+          [85.28672, 28.10368],
+          [85.29216, 28.10796],
+          [85.29522, 28.11435],
+          [85.29955, 28.11779],
+          [85.30344, 28.12176],
+          [85.30675, 28.12624],
+          [85.31017, 28.13063],
+          [85.31372, 28.13489],
+          [85.31815, 28.13793],
+          [85.32018, 28.14204],
+          [85.3229, 28.14617],
+          [85.32622, 28.14992],
+          [85.32846, 28.15436],
+          [85.33259, 28.15759],
+          [85.33488, 28.16194],
+          [85.3355, 28.16603],
+          [85.33802, 28.16906],
+          [85.3395, 28.1727],
+          [85.34224, 28.17559],
+          [85.34319, 28.17955],
+          [85.34495, 28.18202],
+          [85.34688, 28.1872],
+          [85.34882, 28.19296],
+          [85.3491, 28.19918],
+          [85.34976, 28.20531],
+          [85.35036, 28.21144],
+          [85.35485, 28.21662],
+          [85.35627, 28.2228],
+          [85.3607, 28.2278],
+          [85.36196, 28.23389],
+          [85.36288, 28.24009],
+          [85.3669, 28.24523],
+          [85.36798, 28.25144],
+          [85.37189, 28.25668],
+          [85.37374, 28.26263],
+          [85.37605, 28.26841],
+          [85.37861, 28.2741],
+          [85.38127, 28.27975],
+          [85.38337, 28.28561],
+          [85.38684, 28.28431]
+        ]
+      ]
+    },
+    {
+      "id": "F-2",
+      "type": "ponded",
+      "confidence": 0.71,
+      "coordinates": [
+        [
+          [85.35542, 28.168],
+          [85.3548, 28.16977],
+          [85.35324, 28.17131],
+          [85.35082, 28.17117],
+          [85.34785, 28.17062],
+          [85.34841, 28.168],
+          [85.34935, 28.16633],
+          [85.35033, 28.16353],
+          [85.35337, 28.16433],
+          [85.35488, 28.16618],
+          [85.35542, 28.168]
+        ]
+      ]
+    },
+    {
+      "id": "F-3",
+      "type": "ponded",
+      "confidence": 0.64,
+      "coordinates": [
+        [
+          [85.26591, 28.062],
+          [85.26432, 28.06347],
+          [85.2632, 28.06521],
+          [85.26052, 28.06596],
+          [85.25831, 28.06433],
+          [85.25778, 28.062],
+          [85.2593, 28.06029],
+          [85.2609, 28.05906],
+          [85.26297, 28.05939],
+          [85.26554, 28.05977],
+          [85.26591, 28.062]
+        ]
+      ]
+    },
+    {
+      "id": "F-4",
+      "type": "ponded",
+      "confidence": 0.78,
+      "coordinates": [
+        [
+          [85.20244, 27.975],
+          [85.20205, 27.97756],
+          [85.19923, 27.97829],
+          [85.19685, 27.97809],
+          [85.19388, 27.9776],
+          [85.19251, 27.975],
+          [85.19381, 27.97235],
+          [85.19643, 27.9708],
+          [85.19958, 27.97078],
+          [85.20198, 27.97248],
+          [85.20244, 27.975]
+        ]
+      ]
+    },
+    {
+      "id": "F-5",
+      "type": "ponded",
+      "confidence": 0.52,
+      "coordinates": [
+        [
+          [85.32034, 28.122],
+          [85.32023, 28.12341],
+          [85.31878, 28.12409],
+          [85.31737, 28.1237],
+          [85.31634, 28.12305],
+          [85.31559, 28.122],
+          [85.31607, 28.12078],
+          [85.31707, 28.11951],
+          [85.31905, 28.1192],
+          [85.32015, 28.12064],
+          [85.32034, 28.122]
+        ]
+      ]
+    }
+  ],
+  "debrisPolygons": [
+    {
+      "id": "D-1",
+      "confidence": 0.74,
+      "coordinates": [
+        [
+          [85.39284, 28.28209],
+          [85.39033, 28.27506],
+          [85.38431, 28.26932],
+          [85.3816, 28.26237],
+          [85.38099, 28.25463],
+          [85.37943, 28.24735],
+          [85.37618, 28.24074],
+          [85.37112, 28.23466],
+          [85.37259, 28.22633],
+          [85.36944, 28.21959],
+          [85.36439, 28.21362],
+          [85.36316, 28.20652],
+          [85.36421, 28.19865],
+          [85.35949, 28.19243],
+          [85.35903, 28.18499],
+          [85.35404, 28.17838],
+          [85.35464, 28.17178],
+          [85.34901, 28.16971],
+          [85.35016, 28.16358],
+          [85.34508, 28.16119],
+          [85.34171, 28.15769],
+          [85.34199, 28.1504],
+          [85.33693, 28.14659],
+          [85.33335, 28.14183],
+          [85.33178, 28.13579],
+          [85.32619, 28.13232],
+          [85.31764, 28.13779],
+          [85.32119, 28.14257],
+          [85.32162, 28.14934],
+          [85.32457, 28.1545],
+          [85.32895, 28.15874],
+          [85.33478, 28.162],
+          [85.33488, 28.16731],
+          [85.33681, 28.17159],
+          [85.33849, 28.17602],
+          [85.34098, 28.17997],
+          [85.34585, 28.18166],
+          [85.34761, 28.18825],
+          [85.34591, 28.19631],
+          [85.35054, 28.20256],
+          [85.3506, 28.21011],
+          [85.35272, 28.21729],
+          [85.35664, 28.22398],
+          [85.35761, 28.23146],
+          [85.36058, 28.23827],
+          [85.36233, 28.24549],
+          [85.36626, 28.25205],
+          [85.36693, 28.25985],
+          [85.37276, 28.26565],
+          [85.37526, 28.27269],
+          [85.37722, 28.27992],
+          [85.37692, 28.288],
+          [85.39284, 28.28209]
+        ]
+      ]
+    }
+  ],
+  "confidence": {
+    "lowConfidencePolygons": [
+      {
+        "id": "C-1",
+        "type": "ponded",
+        "confidence": 0.42,
+        "coordinates": [
+          [
+            [85.32224, 28.122],
+            [85.32216, 28.12463],
+            [85.31933, 28.12555],
+            [85.31655, 28.12589],
+            [85.31479, 28.12402],
+            [85.31202, 28.122],
+            [85.31433, 28.11968],
+            [85.31651, 28.11802],
+            [85.31959, 28.11776],
+            [85.32282, 28.11895],
+            [85.32224, 28.122]
+          ]
+        ]
+      },
+      {
+        "id": "C-2",
+        "type": "ponded",
+        "confidence": 0.45,
+        "coordinates": [
+          [
+            [85.26723, 28.062],
+            [85.26739, 28.06541],
+            [85.26369, 28.06652],
+            [85.26028, 28.06659],
+            [85.25753, 28.06483],
+            [85.25792, 28.062],
+            [85.25772, 28.0593],
+            [85.26059, 28.05824],
+            [85.26325, 28.05866],
+            [85.26712, 28.05877],
+            [85.26723, 28.062]
+          ]
+        ]
+      },
+      {
+        "id": "C-3",
+        "type": "ponded",
+        "confidence": 0.38,
+        "coordinates": [
+          [
+            [85.37452, 28.235],
+            [85.37436, 28.23775],
+            [85.37189, 28.24005],
+            [85.36826, 28.23965],
+            [85.36599, 28.23754],
+            [85.36448, 28.235],
+            [85.36545, 28.23213],
+            [85.36806, 28.22981],
+            [85.37134, 28.23142],
+            [85.37456, 28.23212],
+            [85.37452, 28.235]
+          ]
+        ]
+      }
+    ],
+    "meanConfidence": 0.78
+  },
+  "radarShadowPolygons": [
+    {
+      "id": "S-1",
+      "type": "radar_shadow",
+      "coordinates": [
+        [
+          [85.34137, 28.2],
+          [85.33818, 28.20711],
+          [85.33, 28.21303],
+          [85.32069, 28.20809],
+          [85.31646, 28.2],
+          [85.31946, 28.19084],
+          [85.33, 28.18613],
+          [85.33899, 28.19218],
+          [85.34137, 28.2]
+        ]
+      ]
+    },
+    {
+      "id": "S-2",
+      "type": "radar_shadow",
+      "coordinates": [
+        [
+          [85.32157, 28.09],
+          [85.31775, 28.09674],
+          [85.31, 28.09956],
+          [85.30149, 28.0974],
+          [85.29935, 28.09],
+          [85.30214, 28.08316],
+          [85.31, 28.08061],
+          [85.31952, 28.08172],
+          [85.32157, 28.09]
+        ]
+      ]
+    },
+    {
+      "id": "S-3",
+      "type": "radar_shadow",
+      "coordinates": [
+        [
+          [85.20086, 28.03],
+          [85.19833, 28.03724],
+          [85.19, 28.04054],
+          [85.18393, 28.03528],
+          [85.17986, 28.03],
+          [85.18143, 28.02254],
+          [85.19, 28.01992],
+          [85.19562, 28.02511],
+          [85.20086, 28.03]
+        ]
+      ]
+    }
+  ],
+  "flowPath": {
+    "upstream": [28.285, 85.385],
+    "coordinates": [
+      [28.285, 85.385],
+      [28.25, 85.372],
+      [28.215, 85.36],
+      [28.18, 85.35],
+      [28.16, 85.338],
+      [28.135, 85.322],
+      [28.11, 85.3],
+      [28.08, 85.272],
+      [28.05, 85.245],
+      [28.02, 85.222],
+      [27.99, 85.2],
+      [27.96, 85.178],
+      [27.935, 85.16]
+    ],
+    "labels": ["Rasuwagadhi", "Syaphrubesi", "Dhunche", "Betrawati", "Trishuli Bazar"]
+  },
+  "buildings": [
+    {
+      "id": "BL-001",
+      "osmId": "way/60043896",
+      "name": "Health Post near Rasuwagadhi",
+      "category": "health post",
+      "lat": 28.26545,
+      "lon": 85.38605,
+      "status": "not_hit",
+      "confidence": 0.63,
+      "reason": "Outside flood mask",
+      "village": "Rasuwagadhi",
+      "distanceToRiverM": 579
+    },
+    {
+      "id": "BL-002",
+      "osmId": "way/60034031",
+      "name": "Residential near Rasuwagadhi",
+      "category": "residential",
+      "lat": 28.27135,
+      "lon": 85.38456,
+      "status": "likely_hit",
+      "confidence": 0.64,
+      "reason": "Intersects flood mask by 19%",
+      "village": "Rasuwagadhi",
+      "distanceToRiverM": 305
+    },
+    {
+      "id": "BL-003",
+      "osmId": "way/60039151",
+      "name": "Temple near Rasuwagadhi",
+      "category": "temple",
+      "lat": 28.27151,
+      "lon": 85.38508,
+      "status": "likely_hit",
+      "confidence": 0.48,
+      "reason": "Intersects flood mask by 70%",
+      "village": "Rasuwagadhi",
+      "distanceToRiverM": 154
+    },
+    {
+      "id": "BL-004",
+      "osmId": "way/60091487",
+      "name": "Residential near Rasuwagadhi",
+      "category": "residential",
+      "lat": 28.26763,
+      "lon": 85.38271,
+      "status": "not_hit",
+      "confidence": 0.51,
+      "reason": "Outside flood mask",
+      "village": "Rasuwagadhi",
+      "distanceToRiverM": 569
+    },
+    {
+      "id": "BL-005",
+      "osmId": "way/60036446",
+      "name": "Residential near Rasuwagadhi",
+      "category": "residential",
+      "lat": 28.26968,
+      "lon": 85.38751,
+      "status": "not_hit",
+      "confidence": 0.87,
+      "reason": "Outside flood mask",
+      "village": "Rasuwagadhi",
+      "distanceToRiverM": 673
+    },
+    {
+      "id": "BL-006",
+      "osmId": "way/60098100",
+      "name": "School near Timure",
+      "category": "school",
+      "lat": 28.26044,
+      "lon": 85.39708,
+      "status": "likely_hit",
+      "confidence": 0.53,
+      "reason": "Intersects flood mask by 37%",
+      "village": "Timure",
+      "distanceToRiverM": 852
+    },
+    {
+      "id": "BL-007",
+      "osmId": "way/60076277",
+      "name": "Health Post near Timure",
+      "category": "health post",
+      "lat": 28.25815,
+      "lon": 85.393,
+      "status": "likely_hit",
+      "confidence": 0.7,
+      "reason": "Intersects flood mask by 27%",
+      "village": "Timure",
+      "distanceToRiverM": 556
+    },
+    {
+      "id": "BL-008",
+      "osmId": "way/60095210",
+      "name": "Temple near Timure",
+      "category": "temple",
+      "lat": 28.2618,
+      "lon": 85.39848,
+      "status": "likely_hit",
+      "confidence": 0.64,
+      "reason": "Intersects flood mask by 46%",
+      "village": "Timure",
+      "distanceToRiverM": 589
+    },
+    {
+      "id": "BL-009",
+      "osmId": "way/60038204",
+      "name": "Health Post near Timure",
+      "category": "health post",
+      "lat": 28.26468,
+      "lon": 85.39414,
+      "status": "likely_hit",
+      "confidence": 0.89,
+      "reason": "Intersects flood mask by 36%",
+      "village": "Timure",
+      "distanceToRiverM": 233
+    },
+    {
+      "id": "BL-010",
+      "osmId": "way/60017128",
+      "name": "Residential near Timure",
+      "category": "residential",
+      "lat": 28.26466,
+      "lon": 85.39665,
+      "status": "not_hit",
+      "confidence": 0.83,
+      "reason": "Outside flood mask",
+      "village": "Timure",
+      "distanceToRiverM": 44
+    },
+    {
+      "id": "BL-011",
+      "osmId": "way/60017261",
+      "name": "Residential near Syaphrubesi",
+      "category": "residential",
+      "lat": 28.15857,
+      "lon": 85.34693,
+      "status": "likely_hit",
+      "confidence": 0.49,
+      "reason": "Intersects flood mask by 68%",
+      "village": "Syaphrubesi",
+      "distanceToRiverM": 420
+    },
+    {
+      "id": "BL-012",
+      "osmId": "way/60048411",
+      "name": "Residential near Syaphrubesi",
+      "category": "residential",
+      "lat": 28.16496,
+      "lon": 85.34636,
+      "status": "likely_hit",
+      "confidence": 0.47,
+      "reason": "Intersects flood mask by 26%",
+      "village": "Syaphrubesi",
+      "distanceToRiverM": 191
+    },
+    {
+      "id": "BL-013",
+      "osmId": "way/60081706",
+      "name": "Residential near Syaphrubesi",
+      "category": "residential",
+      "lat": 28.16015,
+      "lon": 85.34103,
+      "status": "likely_hit",
+      "confidence": 0.6,
+      "reason": "Intersects flood mask by 17%",
+      "village": "Syaphrubesi",
+      "distanceToRiverM": 346
+    },
+    {
+      "id": "BL-014",
+      "osmId": "way/60072212",
+      "name": "Residential near Syaphrubesi",
+      "category": "residential",
+      "lat": 28.15974,
+      "lon": 85.34246,
+      "status": "likely_hit",
+      "confidence": 0.58,
+      "reason": "Intersects flood mask by 56%",
+      "village": "Syaphrubesi",
+      "distanceToRiverM": 235
+    },
+    {
+      "id": "BL-015",
+      "osmId": "way/60021764",
+      "name": "Temple near Syaphrubesi",
+      "category": "temple",
+      "lat": 28.15999,
+      "lon": 85.34721,
+      "status": "likely_hit",
+      "confidence": 0.51,
+      "reason": "Intersects flood mask by 52%",
+      "village": "Syaphrubesi",
+      "distanceToRiverM": 72
+    },
+    {
+      "id": "BL-016",
+      "osmId": "way/60030349",
+      "name": "School near Ramche",
+      "category": "school",
+      "lat": 28.15415,
+      "lon": 85.3734,
+      "status": "likely_hit",
+      "confidence": 0.75,
+      "reason": "Intersects flood mask by 60%",
+      "village": "Ramche",
+      "distanceToRiverM": 832
+    },
+    {
+      "id": "BL-017",
+      "osmId": "way/60029590",
+      "name": "Commercial near Ramche",
+      "category": "commercial",
+      "lat": 28.15803,
+      "lon": 85.37412,
+      "status": "likely_hit",
+      "confidence": 0.58,
+      "reason": "Intersects flood mask by 54%",
+      "village": "Ramche",
+      "distanceToRiverM": 688
+    },
+    {
+      "id": "BL-018",
+      "osmId": "way/60076262",
+      "name": "Commercial near Ramche",
+      "category": "commercial",
+      "lat": 28.15216,
+      "lon": 85.3776,
+      "status": "not_hit",
+      "confidence": 0.51,
+      "reason": "Outside flood mask",
+      "village": "Ramche",
+      "distanceToRiverM": 566
+    },
+    {
+      "id": "BL-019",
+      "osmId": "way/60086554",
+      "name": "Health Post near Ramche",
+      "category": "health post",
+      "lat": 28.15702,
+      "lon": 85.37555,
+      "status": "likely_hit",
+      "confidence": 0.81,
+      "reason": "Intersects flood mask by 60%",
+      "village": "Ramche",
+      "distanceToRiverM": 729
+    },
+    {
+      "id": "BL-020",
+      "osmId": "way/60027444",
+      "name": "Residential near Ramche",
+      "category": "residential",
+      "lat": 28.15865,
+      "lon": 85.37614,
+      "status": "likely_hit",
+      "confidence": 0.74,
+      "reason": "Intersects flood mask by 21%",
+      "village": "Ramche",
+      "distanceToRiverM": 415
+    },
+    {
+      "id": "BL-021",
+      "osmId": "way/60079657",
+      "name": "Health Post near Dhunche",
+      "category": "health post",
+      "lat": 28.11769,
+      "lon": 85.29847,
+      "status": "not_hit",
+      "confidence": 0.76,
+      "reason": "Outside flood mask",
+      "village": "Dhunche",
+      "distanceToRiverM": 531
+    },
+    {
+      "id": "BL-022",
+      "osmId": "way/60080149",
+      "name": "School near Dhunche",
+      "category": "school",
+      "lat": 28.11311,
+      "lon": 85.29766,
+      "status": "likely_hit",
+      "confidence": 0.49,
+      "reason": "Intersects flood mask by 48%",
+      "village": "Dhunche",
+      "distanceToRiverM": 97
+    },
+    {
+      "id": "BL-023",
+      "osmId": "way/60044807",
+      "name": "Temple near Dhunche",
+      "category": "temple",
+      "lat": 28.11697,
+      "lon": 85.29779,
+      "status": "not_hit",
+      "confidence": 0.56,
+      "reason": "Outside flood mask",
+      "village": "Dhunche",
+      "distanceToRiverM": 804
+    },
+    {
+      "id": "BL-024",
+      "osmId": "way/60060142",
+      "name": "Commercial near Dhunche",
+      "category": "commercial",
+      "lat": 28.11264,
+      "lon": 85.29992,
+      "status": "not_hit",
+      "confidence": 0.48,
+      "reason": "Outside flood mask",
+      "village": "Dhunche",
+      "distanceToRiverM": 730
+    },
+    {
+      "id": "BL-025",
+      "osmId": "way/60020154",
+      "name": "Residential near Dhunche",
+      "category": "residential",
+      "lat": 28.1133,
+      "lon": 85.29437,
+      "status": "not_hit",
+      "confidence": 0.72,
+      "reason": "Outside flood mask",
+      "village": "Dhunche",
+      "distanceToRiverM": 369
+    },
+    {
+      "id": "BL-026",
+      "osmId": "way/60027490",
+      "name": "School near Thulo Bharkhu",
+      "category": "school",
+      "lat": 28.09603,
+      "lon": 85.24195,
+      "status": "not_hit",
+      "confidence": 0.46,
+      "reason": "Outside flood mask",
+      "village": "Thulo Bharkhu",
+      "distanceToRiverM": 92
+    },
+    {
+      "id": "BL-027",
+      "osmId": "way/60098566",
+      "name": "Residential near Thulo Bharkhu",
+      "category": "residential",
+      "lat": 28.09789,
+      "lon": 85.24378,
+      "status": "likely_hit",
+      "confidence": 0.67,
+      "reason": "Intersects flood mask by 60%",
+      "village": "Thulo Bharkhu",
+      "distanceToRiverM": 558
+    },
+    {
+      "id": "BL-028",
+      "osmId": "way/60036116",
+      "name": "School near Thulo Bharkhu",
+      "category": "school",
+      "lat": 28.09628,
+      "lon": 85.23973,
+      "status": "not_hit",
+      "confidence": 0.59,
+      "reason": "Outside flood mask",
+      "village": "Thulo Bharkhu",
+      "distanceToRiverM": 117
+    },
+    {
+      "id": "BL-029",
+      "osmId": "way/60076403",
+      "name": "Temple near Thulo Bharkhu",
+      "category": "temple",
+      "lat": 28.10149,
+      "lon": 85.23614,
+      "status": "not_hit",
+      "confidence": 0.89,
+      "reason": "Outside flood mask",
+      "village": "Thulo Bharkhu",
+      "distanceToRiverM": 490
+    },
+    {
+      "id": "BL-030",
+      "osmId": "way/60019779",
+      "name": "Residential near Thulo Bharkhu",
+      "category": "residential",
+      "lat": 28.10195,
+      "lon": 85.23909,
+      "status": "not_hit",
+      "confidence": 0.71,
+      "reason": "Outside flood mask",
+      "village": "Thulo Bharkhu",
+      "distanceToRiverM": 175
+    },
+    {
+      "id": "BL-031",
+      "osmId": "way/60092794",
+      "name": "School near Betrawati",
+      "category": "school",
+      "lat": 27.98498,
+      "lon": 85.19009,
+      "status": "not_hit",
+      "confidence": 0.68,
+      "reason": "Outside flood mask",
+      "village": "Betrawati",
+      "distanceToRiverM": 145
+    },
+    {
+      "id": "BL-032",
+      "osmId": "way/60061652",
+      "name": "Commercial near Betrawati",
+      "category": "commercial",
+      "lat": 27.98463,
+      "lon": 85.18985,
+      "status": "not_hit",
+      "confidence": 0.46,
+      "reason": "Outside flood mask",
+      "village": "Betrawati",
+      "distanceToRiverM": 33
+    },
+    {
+      "id": "BL-033",
+      "osmId": "way/60028442",
+      "name": "Health Post near Betrawati",
+      "category": "health post",
+      "lat": 27.9866,
+      "lon": 85.19345,
+      "status": "not_hit",
+      "confidence": 0.64,
+      "reason": "Outside flood mask",
+      "village": "Betrawati",
+      "distanceToRiverM": 415
+    },
+    {
+      "id": "BL-034",
+      "osmId": "way/60054338",
+      "name": "Temple near Betrawati",
+      "category": "temple",
+      "lat": 27.98153,
+      "lon": 85.19472,
+      "status": "likely_hit",
+      "confidence": 0.83,
+      "reason": "Intersects flood mask by 22%",
+      "village": "Betrawati",
+      "distanceToRiverM": 230
+    },
+    {
+      "id": "BL-035",
+      "osmId": "way/60018516",
+      "name": "Residential near Betrawati",
+      "category": "residential",
+      "lat": 27.9847,
+      "lon": 85.19521,
+      "status": "not_hit",
+      "confidence": 0.63,
+      "reason": "Outside flood mask",
+      "village": "Betrawati",
+      "distanceToRiverM": 633
+    },
+    {
+      "id": "BL-036",
+      "osmId": "way/60016326",
+      "name": "Temple near Trishuli Bazar",
+      "category": "temple",
+      "lat": 27.93661,
+      "lon": 85.1714,
+      "status": "not_hit",
+      "confidence": 0.58,
+      "reason": "Outside flood mask",
+      "village": "Trishuli Bazar",
+      "distanceToRiverM": 82
+    },
+    {
+      "id": "BL-037",
+      "osmId": "way/60044829",
+      "name": "Residential near Trishuli Bazar",
+      "category": "residential",
+      "lat": 27.94268,
+      "lon": 85.16628,
+      "status": "not_hit",
+      "confidence": 0.65,
+      "reason": "Outside flood mask",
+      "village": "Trishuli Bazar",
+      "distanceToRiverM": 353
+    },
+    {
+      "id": "BL-038",
+      "osmId": "way/60092692",
+      "name": "Residential near Trishuli Bazar",
+      "category": "residential",
+      "lat": 27.93752,
+      "lon": 85.16699,
+      "status": "not_hit",
+      "confidence": 0.63,
+      "reason": "Outside flood mask",
+      "village": "Trishuli Bazar",
+      "distanceToRiverM": 597
+    },
+    {
+      "id": "BL-039",
+      "osmId": "way/60063855",
+      "name": "Health Post near Trishuli Bazar",
+      "category": "health post",
+      "lat": 27.94039,
+      "lon": 85.16976,
+      "status": "likely_hit",
+      "confidence": 0.65,
+      "reason": "Intersects flood mask by 63%",
+      "village": "Trishuli Bazar",
+      "distanceToRiverM": 171
+    },
+    {
+      "id": "BL-040",
+      "osmId": "way/60026686",
+      "name": "School near Trishuli Bazar",
+      "category": "school",
+      "lat": 27.94116,
+      "lon": 85.16629,
+      "status": "likely_hit",
+      "confidence": 0.53,
+      "reason": "Intersects flood mask by 41%",
+      "village": "Trishuli Bazar",
+      "distanceToRiverM": 381
+    }
+  ],
+  "roads": [
+    {
+      "id": "R-01",
+      "osmId": "way/41230000",
+      "name": "Rasuwagadhi Road",
+      "roadClass": "secondary",
+      "lengthKm": 2.04,
+      "status": "intact",
+      "confidence": 0.66,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.394, 28.285],
+        [85.3875, 28.2675]
+      ]
+    },
+    {
+      "id": "R-02",
+      "osmId": "way/41230137",
+      "name": "Rasuwagadhi Road",
+      "roadClass": "secondary",
+      "lengthKm": 2.04,
+      "status": "flooded",
+      "confidence": 0.76,
+      "reason": "Intersects flood mask by 26%",
+      "coordinates": [
+        [85.3875, 28.2675],
+        [85.381, 28.25]
+      ]
+    },
+    {
+      "id": "R-03",
+      "osmId": "way/41230274",
+      "name": "Rasuwagadhi Road",
+      "roadClass": "secondary",
+      "lengthKm": 2.03,
+      "status": "flooded",
+      "confidence": 0.83,
+      "reason": "Intersects flood mask by 49%",
+      "coordinates": [
+        [85.381, 28.25],
+        [85.375, 28.2325]
+      ]
+    },
+    {
+      "id": "R-04",
+      "osmId": "way/41230411",
+      "name": "Rasuwagadhi Road",
+      "roadClass": "secondary",
+      "lengthKm": 2.03,
+      "status": "flooded",
+      "confidence": 0.64,
+      "reason": "Intersects flood mask by 41%",
+      "coordinates": [
+        [85.375, 28.2325],
+        [85.369, 28.215]
+      ]
+    },
+    {
+      "id": "R-05",
+      "osmId": "way/41230548",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2,
+      "status": "intact",
+      "confidence": 0.86,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.369, 28.215],
+        [85.364, 28.1975]
+      ]
+    },
+    {
+      "id": "R-06",
+      "osmId": "way/41230685",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2,
+      "status": "intact",
+      "confidence": 0.9,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.364, 28.1975],
+        [85.359, 28.18]
+      ]
+    },
+    {
+      "id": "R-07",
+      "osmId": "way/41230822",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.26,
+      "status": "intact",
+      "confidence": 0.67,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.359, 28.18],
+        [85.353, 28.17]
+      ]
+    },
+    {
+      "id": "R-08",
+      "osmId": "way/41230959",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.26,
+      "status": "flooded",
+      "confidence": 0.84,
+      "reason": "Intersects flood mask by 45%",
+      "coordinates": [
+        [85.353, 28.17],
+        [85.347, 28.16]
+      ]
+    },
+    {
+      "id": "R-09",
+      "osmId": "way/41231096",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.59,
+      "status": "flooded",
+      "confidence": 0.66,
+      "reason": "Intersects flood mask by 30%",
+      "coordinates": [
+        [85.347, 28.16],
+        [85.339, 28.1475]
+      ]
+    },
+    {
+      "id": "R-10",
+      "osmId": "way/41231233",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.59,
+      "status": "intact",
+      "confidence": 0.92,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.339, 28.1475],
+        [85.331, 28.135]
+      ]
+    },
+    {
+      "id": "R-11",
+      "osmId": "way/41231370",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.76,
+      "status": "intact",
+      "confidence": 0.69,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.331, 28.135],
+        [85.32, 28.1225]
+      ]
+    },
+    {
+      "id": "R-12",
+      "osmId": "way/41231507",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.76,
+      "status": "intact",
+      "confidence": 0.92,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.32, 28.1225],
+        [85.309, 28.11]
+      ]
+    },
+    {
+      "id": "R-13",
+      "osmId": "way/41231644",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2.16,
+      "status": "intact",
+      "confidence": 0.74,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.309, 28.11],
+        [85.295, 28.095]
+      ]
+    },
+    {
+      "id": "R-14",
+      "osmId": "way/41231781",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2.16,
+      "status": "flooded",
+      "confidence": 0.77,
+      "reason": "Intersects flood mask by 36%",
+      "coordinates": [
+        [85.295, 28.095],
+        [85.281, 28.08]
+      ]
+    },
+    {
+      "id": "R-15",
+      "osmId": "way/41231918",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2.13,
+      "status": "intact",
+      "confidence": 0.67,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.281, 28.08],
+        [85.2675, 28.065]
+      ]
+    },
+    {
+      "id": "R-16",
+      "osmId": "way/41232055",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2.13,
+      "status": "intact",
+      "confidence": 0.75,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.2675, 28.065],
+        [85.254, 28.05]
+      ]
+    },
+    {
+      "id": "R-17",
+      "osmId": "way/41232192",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2.01,
+      "status": "intact",
+      "confidence": 0.78,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.254, 28.05],
+        [85.2425, 28.035]
+      ]
+    },
+    {
+      "id": "R-18",
+      "osmId": "way/41232329",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 2.01,
+      "status": "intact",
+      "confidence": 0.73,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.2425, 28.035],
+        [85.231, 28.02]
+      ]
+    },
+    {
+      "id": "R-19",
+      "osmId": "way/41232466",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.98,
+      "status": "intact",
+      "confidence": 0.68,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.231, 28.02],
+        [85.22, 28.005]
+      ]
+    },
+    {
+      "id": "R-20",
+      "osmId": "way/41232603",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.98,
+      "status": "intact",
+      "confidence": 0.72,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.22, 28.005],
+        [85.209, 27.99]
+      ]
+    },
+    {
+      "id": "R-21",
+      "osmId": "way/41232740",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.98,
+      "status": "intact",
+      "confidence": 0.84,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.209, 27.99],
+        [85.198, 27.975]
+      ]
+    },
+    {
+      "id": "R-22",
+      "osmId": "way/41232877",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.98,
+      "status": "intact",
+      "confidence": 0.63,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.198, 27.975],
+        [85.187, 27.96]
+      ]
+    },
+    {
+      "id": "R-23",
+      "osmId": "way/41233014",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.64,
+      "status": "intact",
+      "confidence": 0.79,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.187, 27.96],
+        [85.178, 27.9475]
+      ]
+    },
+    {
+      "id": "R-24",
+      "osmId": "way/41233151",
+      "name": "Pasang Lhamu Highway",
+      "roadClass": "primary",
+      "lengthKm": 1.64,
+      "status": "intact",
+      "confidence": 0.76,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.178, 27.9475],
+        [85.169, 27.935]
+      ]
+    },
+    {
+      "id": "R-T1",
+      "osmId": "way/42001296",
+      "name": "Ramche Track",
+      "roadClass": "track",
+      "lengthKm": 4.87,
+      "status": "flooded",
+      "confidence": 0.68,
+      "reason": "Intersects flood mask by 34%",
+      "coordinates": [
+        [85.331, 28.135],
+        [85.36, 28.15],
+        [85.375, 28.155]
+      ]
+    },
+    {
+      "id": "R-T2",
+      "osmId": "way/42005840",
+      "name": "Thulo Bharkhu Road",
+      "roadClass": "tertiary",
+      "lengthKm": 4.5,
+      "status": "intact",
+      "confidence": 0.72,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.281, 28.08],
+        [85.255, 28.09],
+        [85.24, 28.098]
+      ]
+    },
+    {
+      "id": "R-T3",
+      "osmId": "way/42002053",
+      "name": "Dhunche Link",
+      "roadClass": "tertiary",
+      "lengthKm": 1.29,
+      "status": "intact",
+      "confidence": 0.59,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.309, 28.11],
+        [85.296, 28.112]
+      ]
+    },
+    {
+      "id": "R-T4",
+      "osmId": "way/42004744",
+      "name": "Timure Track",
+      "roadClass": "track",
+      "lengthKm": 1.91,
+      "status": "intact",
+      "confidence": 0.87,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.381, 28.25],
+        [85.395, 28.262]
+      ]
+    },
+    {
+      "id": "R-T5",
+      "osmId": "way/42002716",
+      "name": "Gatlang Road",
+      "roadClass": "tertiary",
+      "lengthKm": 6.62,
+      "status": "intact",
+      "confidence": 0.58,
+      "reason": "No overlap with flood mask",
+      "coordinates": [
+        [85.296, 28.11],
+        [85.27, 28.14],
+        [85.26, 28.16]
+      ]
+    },
+    {
+      "id": "R-T6",
+      "osmId": "way/42005455",
+      "name": "Kalikasthan Road",
+      "roadClass": "track",
+      "lengthKm": 5.53,
+      "status": "flooded",
+      "confidence": 0.56,
+      "reason": "Intersects flood mask by 42%",
+      "coordinates": [
+        [85.187, 27.96],
+        [85.215, 27.97],
+        [85.235, 27.985]
+      ]
+    }
+  ],
+  "bridges": [
+    {
+      "id": "B-1",
+      "osmId": "way/51133021",
+      "name": "Rasuwagadhi Bridge",
+      "lat": 28.247,
+      "lon": 85.376,
+      "status": "damaged",
+      "confidence": 0.81,
+      "reason": "Approach spans inside debris corridor; deck return lost in after image"
+    },
+    {
+      "id": "B-2",
+      "osmId": "way/51133877",
+      "name": "Syaphrubesi Suspension Bridge",
+      "lat": 28.159,
+      "lon": 85.343,
+      "status": "damaged",
+      "confidence": 0.73,
+      "reason": "Intersects flood mask by 58%; abutment area changed"
+    },
+    {
+      "id": "B-3",
+      "osmId": "way/51134402",
+      "name": "Dhunche Khola Bridge",
+      "lat": 28.108,
+      "lon": 85.303,
+      "status": "intact",
+      "confidence": 0.69,
+      "reason": "Outside flood mask; stable backscatter"
+    },
+    {
+      "id": "B-4",
+      "osmId": "way/51135119",
+      "name": "Betrawati Bridge",
+      "lat": 27.985,
+      "lon": 85.198,
+      "status": "intact",
+      "confidence": 0.77,
+      "reason": "Flood edge 140 m away; stable backscatter"
+    }
+  ],
+  "villages": [
+    {
+      "id": "V-1",
+      "osmId": "node/908268",
+      "name": "Rasuwagadhi",
+      "lat": 28.268,
+      "lon": 85.384,
+      "status": "cut_off",
+      "population": null,
+      "nearestHospitalId": "H-1",
+      "distanceBeforeKm": 21.4,
+      "distanceAfterKm": null,
+      "reason": "Bridge B-1 and highway R-02, R-03 flooded",
+      "alternateRoute": "No road route",
+      "priority": 92,
+      "confidence": 0.82,
+      "route": {
+        "coordinates": [
+          [28.268, 85.384],
+          [28.2675, 85.3875],
+          [28.25, 85.381],
+          [28.2325, 85.375],
+          [28.215, 85.369],
+          [28.1975, 85.364],
+          [28.18, 85.359],
+          [28.17, 85.353],
+          [28.16, 85.347],
+          [28.1475, 85.339],
+          [28.135, 85.331],
+          [28.1225, 85.32],
+          [28.11, 85.309],
+          [28.11, 85.309],
+          [28.1125, 85.2955]
+        ],
+        "brokenSegmentIds": ["R-02", "R-03"],
+        "breakPoints": [
+          [28.25875, 85.38425],
+          [28.24125, 85.378]
+        ]
+      }
+    },
+    {
+      "id": "V-2",
+      "osmId": "node/908262",
+      "name": "Timure",
+      "lat": 28.262,
+      "lon": 85.395,
+      "status": "cut_off",
+      "population": null,
+      "nearestHospitalId": "H-1",
+      "distanceBeforeKm": 23.1,
+      "distanceAfterKm": null,
+      "reason": "Only access via R-02 (flooded)",
+      "alternateRoute": "No road route",
+      "priority": 84,
+      "confidence": 0.78,
+      "route": {
+        "coordinates": [
+          [28.262, 85.395],
+          [28.25, 85.381],
+          [28.25, 85.381],
+          [28.2325, 85.375],
+          [28.215, 85.369],
+          [28.1975, 85.364],
+          [28.18, 85.359],
+          [28.17, 85.353],
+          [28.16, 85.347],
+          [28.1475, 85.339],
+          [28.135, 85.331],
+          [28.1225, 85.32],
+          [28.11, 85.309],
+          [28.11, 85.309],
+          [28.1125, 85.2955]
+        ],
+        "brokenSegmentIds": ["R-02"],
+        "breakPoints": [[28.25875, 85.38425]]
+      }
+    },
+    {
+      "id": "V-3",
+      "osmId": "node/908162",
+      "name": "Syaphrubesi",
+      "lat": 28.162,
+      "lon": 85.345,
+      "status": "cut_off",
+      "population": null,
+      "nearestHospitalId": "H-1",
+      "distanceBeforeKm": 8.6,
+      "distanceAfterKm": null,
+      "reason": "Bridge B-2 damaged; R-08 flooded",
+      "alternateRoute": "Route possible via Gatlang Road (+19 km)",
+      "priority": 88,
+      "confidence": 0.74,
+      "route": {
+        "coordinates": [
+          [28.162, 85.345],
+          [28.16, 85.347],
+          [28.1475, 85.339],
+          [28.135, 85.331],
+          [28.1225, 85.32],
+          [28.11, 85.309],
+          [28.11, 85.309],
+          [28.1125, 85.2955]
+        ],
+        "brokenSegmentIds": ["R-08", "R-09"],
+        "breakPoints": [
+          [28.165, 85.35],
+          [28.15375, 85.343]
+        ]
+      }
+    },
+    {
+      "id": "V-4",
+      "osmId": "node/908155",
+      "name": "Ramche",
+      "lat": 28.155,
+      "lon": 85.375,
+      "status": "cut_off",
+      "population": null,
+      "nearestHospitalId": "H-1",
+      "distanceBeforeKm": 10.9,
+      "distanceAfterKm": null,
+      "reason": "Ramche Track R-T1 flooded",
+      "alternateRoute": "No road route",
+      "priority": 71,
+      "confidence": 0.66,
+      "route": {
+        "coordinates": [
+          [28.155, 85.375],
+          [28.15, 85.36],
+          [28.135, 85.331],
+          [28.135, 85.331],
+          [28.1225, 85.32],
+          [28.11, 85.309],
+          [28.11, 85.309],
+          [28.1125, 85.2955]
+        ],
+        "brokenSegmentIds": ["R-T1"],
+        "breakPoints": [[28.145, 85.353]]
+      }
+    },
+    {
+      "id": "V-5",
+      "osmId": "node/908115",
+      "name": "Dhunche",
+      "lat": 28.115,
+      "lon": 85.298,
+      "status": "connected",
+      "population": null,
+      "nearestHospitalId": "H-1",
+      "distanceBeforeKm": 0.4,
+      "distanceAfterKm": 0.4,
+      "reason": "",
+      "alternateRoute": "",
+      "priority": 0,
+      "confidence": 0.9,
+      "route": {
+        "coordinates": [
+          [28.115, 85.298],
+          [28.11, 85.309],
+          [28.11, 85.309],
+          [28.1125, 85.2955]
+        ],
+        "brokenSegmentIds": [],
+        "breakPoints": []
+      }
+    },
+    {
+      "id": "V-6",
+      "osmId": "node/908098",
+      "name": "Thulo Bharkhu",
+      "lat": 28.098,
+      "lon": 85.24,
+      "status": "connected",
+      "population": null,
+      "nearestHospitalId": "H-1",
+      "distanceBeforeKm": 8.2,
+      "distanceAfterKm": 8.2,
+      "reason": "",
+      "alternateRoute": "",
+      "priority": 0,
+      "confidence": 0.85,
+      "route": {
+        "coordinates": [
+          [28.098, 85.24],
+          [28.09, 85.255],
+          [28.08, 85.281],
+          [28.08, 85.281],
+          [28.095, 85.295],
+          [28.11, 85.309],
+          [28.11, 85.309],
+          [28.1125, 85.2955]
+        ],
+        "brokenSegmentIds": [],
+        "breakPoints": []
+      }
+    },
+    {
+      "id": "V-7",
+      "osmId": "node/907983",
+      "name": "Betrawati",
+      "lat": 27.983,
+      "lon": 85.192,
+      "status": "connected",
+      "population": null,
+      "nearestHospitalId": "H-2",
+      "distanceBeforeKm": 6.4,
+      "distanceAfterKm": 6.4,
+      "reason": "",
+      "alternateRoute": "",
+      "priority": 0,
+      "confidence": 0.88,
+      "route": {
+        "coordinates": [
+          [27.983, 85.192],
+          [27.975, 85.198],
+          [27.96, 85.187],
+          [27.9475, 85.178],
+          [27.935, 85.169],
+          [27.935, 85.172]
+        ],
+        "brokenSegmentIds": [],
+        "breakPoints": []
+      }
+    },
+    {
+      "id": "V-8",
+      "osmId": "node/907940",
+      "name": "Trishuli Bazar",
+      "lat": 27.94,
+      "lon": 85.168,
+      "status": "connected",
+      "population": null,
+      "nearestHospitalId": "H-2",
+      "distanceBeforeKm": 0.9,
+      "distanceAfterKm": 0.9,
+      "reason": "",
+      "alternateRoute": "",
+      "priority": 0,
+      "confidence": 0.91,
+      "route": {
+        "coordinates": [
+          [27.94, 85.168],
+          [27.935, 85.169],
+          [27.935, 85.172]
+        ],
+        "brokenSegmentIds": [],
+        "breakPoints": []
+      }
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "H-1",
+      "osmId": "node/7012344",
+      "name": "Rasuwa District Hospital, Dhunche",
+      "lat": 28.1125,
+      "lon": 85.2955,
+      "kind": "hospital"
+    },
+    {
+      "id": "H-2",
+      "osmId": "node/7013981",
+      "name": "Trishuli Hospital, Bidur",
+      "lat": 27.935,
+      "lon": 85.172,
+      "kind": "hospital"
+    }
+  ],
+  "towns": [
+    {
+      "id": "T-1",
+      "osmId": "node/301122",
+      "name": "Dhunche (district HQ)",
+      "lat": 28.116,
+      "lon": 85.29,
+      "kind": "town"
+    },
+    {
+      "id": "T-2",
+      "osmId": "node/301877",
+      "name": "Bidur",
+      "lat": 27.93,
+      "lon": 85.165,
+      "kind": "town"
+    }
+  ],
+  "kpis": {
+    "floodedAreaKm2": 6.8,
+    "debrisAreaKm2": 2.3,
+    "buildingsLikelyHit": 20,
+    "buildingsTotal": 40,
+    "roadLengthAffectedKm": 21.5,
+    "bridgesLikelyDamaged": 2,
+    "bridgesTotal": 4,
+    "villagesCutOff": 4,
+    "villagesTotal": 8,
+    "peopleInCutOffVillages": null
+  },
+  "validation": null,
+  "metadata": {
+    "generatedAt": "2026-08-27T06:12:00Z",
+    "pipelineVersion": "mock",
+    "model": null,
+    "resolutionM": 10,
+    "dataMode": "mock"
+  },
+  "provenance": {
+    "scenes": "mock",
+    "flood": "mock",
+    "exposure": "mock",
+    "connectivity": "mock",
+    "validation": "mock",
+    "copilot": "mock"
+  },
+  "quality": {
+    "sentinel1PairQuality": null,
+    "notes": []
+  },
+  "limitations": [
+    "Sentinel revisit time is measured in days, so this is not a minute-by-minute early-warning system.",
+    "SAR can have shadow/layover and other terrain-related errors.",
+    "Smooth surfaces and some non-water changes can resemble flood signatures.",
+    "Sentinel resolution limits exact building-level damage claims.",
+    "OSM may be incomplete or outdated.",
+    "Road cut-off means loss of mapped road connectivity, not total physical isolation.",
+    "Remote Himalayan terrain creates difficult radar geometry.",
+    "Debris and standing water are not always perfectly separable.",
+    "Results depend on satellite availability and image quality.",
+    "This is an educational prototype, not an operational rescue system."
+  ]
+}

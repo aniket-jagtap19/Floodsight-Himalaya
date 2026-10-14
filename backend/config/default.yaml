@@ -1,0 +1,20 @@
+# FloodSight Himalaya — Default Pipeline Configuration (Design §27)
+# All numeric parameters are unvalidated placeholders and must be calibrated on real scenes.
+
+event:
+  before_days: 20  # placeholder, not validated
+  after_days: 20   # placeholder, not validated
+
+sar:
+  polarization: VV
+  threshold_method: otsu
+
+terrain:
+  max_slope: 15.0  # placeholder, not validated
+  use_hand: false
+
+roads:
+  affected_ratio_threshold: 0.1  # placeholder, not validated
+
+processing:
+  minimum_polygon_area_m2: 500.0  # placeholder, not validated

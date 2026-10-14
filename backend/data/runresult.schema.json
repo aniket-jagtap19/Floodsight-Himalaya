@@ -1,0 +1,1140 @@
+{
+  "$defs": {
+    "AreaPolygon": {
+      "properties": {
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "coordinates": {
+          "items": {
+            "items": {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": "array"
+          },
+          "title": "Coordinates",
+          "type": "array"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Type"
+        }
+      },
+      "required": [
+        "id",
+        "coordinates"
+      ],
+      "title": "AreaPolygon",
+      "type": "object"
+    },
+    "Bridge": {
+      "properties": {
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Confidence"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lon": {
+          "title": "Lon",
+          "type": "number"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "osmId": {
+          "title": "Osmid",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reason"
+        },
+        "status": {
+          "enum": [
+            "damaged",
+            "intact"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "osmId",
+        "name",
+        "lat",
+        "lon",
+        "status",
+        "confidence",
+        "reason"
+      ],
+      "title": "Bridge",
+      "type": "object"
+    },
+    "Building": {
+      "properties": {
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Confidence"
+        },
+        "distanceToRiverM": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Distancetoriverm"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lon": {
+          "title": "Lon",
+          "type": "number"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "osmId": {
+          "title": "Osmid",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reason"
+        },
+        "status": {
+          "enum": [
+            "likely_hit",
+            "not_hit"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "village": {
+          "title": "Village",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "osmId",
+        "name",
+        "category",
+        "lat",
+        "lon",
+        "status",
+        "confidence",
+        "reason",
+        "village",
+        "distanceToRiverM"
+      ],
+      "title": "Building",
+      "type": "object"
+    },
+    "ConfidenceInfo": {
+      "properties": {
+        "lowConfidencePolygons": {
+          "items": {
+            "$ref": "#/$defs/AreaPolygon"
+          },
+          "title": "Lowconfidencepolygons",
+          "type": "array"
+        },
+        "meanConfidence": {
+          "title": "Meanconfidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "lowConfidencePolygons",
+        "meanConfidence"
+      ],
+      "title": "ConfidenceInfo",
+      "type": "object"
+    },
+    "Facility": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "hospital",
+            "town"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lon": {
+          "title": "Lon",
+          "type": "number"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "osmId": {
+          "title": "Osmid",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "osmId",
+        "name",
+        "lat",
+        "lon",
+        "kind"
+      ],
+      "title": "Facility",
+      "type": "object"
+    },
+    "FlowPath": {
+      "properties": {
+        "coordinates": {
+          "items": {
+            "maxItems": 2,
+            "minItems": 2,
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "type": "array"
+          },
+          "title": "Coordinates",
+          "type": "array"
+        },
+        "labels": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Labels",
+          "type": "array"
+        },
+        "upstream": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "title": "Upstream",
+          "type": "array"
+        }
+      },
+      "required": [
+        "upstream",
+        "coordinates",
+        "labels"
+      ],
+      "title": "FlowPath",
+      "type": "object"
+    },
+    "Kpis": {
+      "properties": {
+        "bridgesLikelyDamaged": {
+          "title": "Bridgeslikelydamaged",
+          "type": "integer"
+        },
+        "bridgesTotal": {
+          "title": "Bridgestotal",
+          "type": "integer"
+        },
+        "buildingsLikelyHit": {
+          "title": "Buildingslikelyhit",
+          "type": "integer"
+        },
+        "buildingsTotal": {
+          "title": "Buildingstotal",
+          "type": "integer"
+        },
+        "debrisAreaKm2": {
+          "title": "Debrisareakm2",
+          "type": "number"
+        },
+        "floodedAreaKm2": {
+          "title": "Floodedareakm2",
+          "type": "number"
+        },
+        "peopleInCutOffVillages": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Peopleincutoffvillages"
+        },
+        "roadLengthAffectedKm": {
+          "title": "Roadlengthaffectedkm",
+          "type": "number"
+        },
+        "villagesCutOff": {
+          "title": "Villagescutoff",
+          "type": "integer"
+        },
+        "villagesTotal": {
+          "title": "Villagestotal",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "floodedAreaKm2",
+        "debrisAreaKm2",
+        "buildingsLikelyHit",
+        "buildingsTotal",
+        "roadLengthAffectedKm",
+        "bridgesLikelyDamaged",
+        "bridgesTotal",
+        "villagesCutOff",
+        "villagesTotal",
+        "peopleInCutOffVillages"
+      ],
+      "title": "Kpis",
+      "type": "object"
+    },
+    "MetadataInfo": {
+      "properties": {
+        "dataMode": {
+          "enum": [
+            "mock",
+            "live",
+            "mixed"
+          ],
+          "title": "Datamode",
+          "type": "string"
+        },
+        "generatedAt": {
+          "title": "Generatedat",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Model"
+        },
+        "pipelineVersion": {
+          "title": "Pipelineversion",
+          "type": "string"
+        },
+        "resolutionM": {
+          "title": "Resolutionm",
+          "type": "number"
+        }
+      },
+      "required": [
+        "generatedAt",
+        "pipelineVersion",
+        "model",
+        "resolutionM",
+        "dataMode"
+      ],
+      "title": "MetadataInfo",
+      "type": "object"
+    },
+    "Provenance": {
+      "properties": {
+        "connectivity": {
+          "enum": [
+            "mock",
+            "live",
+            "not_run"
+          ],
+          "title": "Connectivity",
+          "type": "string"
+        },
+        "copilot": {
+          "enum": [
+            "mock",
+            "live",
+            "not_run"
+          ],
+          "title": "Copilot",
+          "type": "string"
+        },
+        "exposure": {
+          "enum": [
+            "mock",
+            "live",
+            "not_run"
+          ],
+          "title": "Exposure",
+          "type": "string"
+        },
+        "flood": {
+          "enum": [
+            "mock",
+            "live",
+            "not_run"
+          ],
+          "title": "Flood",
+          "type": "string"
+        },
+        "scenes": {
+          "enum": [
+            "mock",
+            "live",
+            "not_run"
+          ],
+          "title": "Scenes",
+          "type": "string"
+        },
+        "validation": {
+          "enum": [
+            "mock",
+            "live",
+            "not_run"
+          ],
+          "title": "Validation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "scenes",
+        "flood",
+        "exposure",
+        "connectivity",
+        "validation",
+        "copilot"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "QualityInfo": {
+      "properties": {
+        "notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Notes",
+          "type": "array"
+        },
+        "sentinel1PairQuality": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Sentinel1Pairquality"
+        }
+      },
+      "required": [
+        "sentinel1PairQuality",
+        "notes"
+      ],
+      "title": "QualityInfo",
+      "type": "object"
+    },
+    "Road": {
+      "properties": {
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Confidence"
+        },
+        "coordinates": {
+          "items": {
+            "maxItems": 2,
+            "minItems": 2,
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "type": "array"
+          },
+          "title": "Coordinates",
+          "type": "array"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "lengthKm": {
+          "title": "Lengthkm",
+          "type": "number"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "osmId": {
+          "title": "Osmid",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reason"
+        },
+        "roadClass": {
+          "enum": [
+            "primary",
+            "secondary",
+            "tertiary",
+            "track"
+          ],
+          "title": "Roadclass",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "flooded",
+            "intact"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "osmId",
+        "name",
+        "roadClass",
+        "lengthKm",
+        "status",
+        "confidence",
+        "reason",
+        "coordinates"
+      ],
+      "title": "Road",
+      "type": "object"
+    },
+    "Scene": {
+      "properties": {
+        "cloudCover": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cloudcover"
+        },
+        "date": {
+          "title": "Date",
+          "type": "string"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "orbit": {
+          "title": "Orbit",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "before",
+            "after",
+            "event",
+            "optical"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "sensor": {
+          "title": "Sensor",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "sensor",
+        "role",
+        "date",
+        "orbit",
+        "cloudCover"
+      ],
+      "title": "Scene",
+      "type": "object"
+    },
+    "Validation": {
+      "properties": {
+        "areaOursKm2": {
+          "title": "Areaourskm2",
+          "type": "number"
+        },
+        "areaRefKm2": {
+          "title": "Arearefkm2",
+          "type": "number"
+        },
+        "f1": {
+          "title": "F1",
+          "type": "number"
+        },
+        "fnKm2": {
+          "title": "Fnkm2",
+          "type": "number"
+        },
+        "fpKm2": {
+          "title": "Fpkm2",
+          "type": "number"
+        },
+        "iou": {
+          "title": "Iou",
+          "type": "number"
+        },
+        "precision": {
+          "title": "Precision",
+          "type": "number"
+        },
+        "recall": {
+          "title": "Recall",
+          "type": "number"
+        },
+        "reference": {
+          "title": "Reference",
+          "type": "string"
+        },
+        "referencePolygons": {
+          "items": {
+            "$ref": "#/$defs/AreaPolygon"
+          },
+          "title": "Referencepolygons",
+          "type": "array"
+        },
+        "regions": {
+          "items": {
+            "$ref": "#/$defs/ValidationRegion"
+          },
+          "title": "Regions",
+          "type": "array"
+        },
+        "tpKm2": {
+          "title": "Tpkm2",
+          "type": "number"
+        }
+      },
+      "required": [
+        "reference",
+        "precision",
+        "recall",
+        "f1",
+        "iou",
+        "areaOursKm2",
+        "areaRefKm2",
+        "tpKm2",
+        "fpKm2",
+        "fnKm2",
+        "regions",
+        "referencePolygons"
+      ],
+      "title": "Validation",
+      "type": "object"
+    },
+    "ValidationRegion": {
+      "properties": {
+        "cloudCover": {
+          "title": "Cloudcover",
+          "type": "string"
+        },
+        "date": {
+          "title": "Date",
+          "type": "string"
+        },
+        "f1": {
+          "title": "F1",
+          "type": "number"
+        },
+        "iou": {
+          "title": "Iou",
+          "type": "number"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "orbit": {
+          "title": "Orbit",
+          "type": "string"
+        },
+        "precision": {
+          "title": "Precision",
+          "type": "number"
+        },
+        "recall": {
+          "title": "Recall",
+          "type": "number"
+        }
+      },
+      "required": [
+        "name",
+        "date",
+        "orbit",
+        "cloudCover",
+        "precision",
+        "recall",
+        "f1",
+        "iou"
+      ],
+      "title": "ValidationRegion",
+      "type": "object"
+    },
+    "Village": {
+      "properties": {
+        "alternateRoute": {
+          "title": "Alternateroute",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Confidence"
+        },
+        "distanceAfterKm": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Distanceafterkm"
+        },
+        "distanceBeforeKm": {
+          "title": "Distancebeforekm",
+          "type": "number"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lon": {
+          "title": "Lon",
+          "type": "number"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "nearestHospitalId": {
+          "title": "Nearesthospitalid",
+          "type": "string"
+        },
+        "osmId": {
+          "title": "Osmid",
+          "type": "string"
+        },
+        "population": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Population"
+        },
+        "priority": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Priority"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reason"
+        },
+        "route": {
+          "$ref": "#/$defs/VillageRoute"
+        },
+        "status": {
+          "enum": [
+            "cut_off",
+            "connected"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "osmId",
+        "name",
+        "lat",
+        "lon",
+        "status",
+        "population",
+        "nearestHospitalId",
+        "distanceBeforeKm",
+        "distanceAfterKm",
+        "reason",
+        "alternateRoute",
+        "priority",
+        "confidence",
+        "route"
+      ],
+      "title": "Village",
+      "type": "object"
+    },
+    "VillageRoute": {
+      "properties": {
+        "breakPoints": {
+          "items": {
+            "maxItems": 2,
+            "minItems": 2,
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "type": "array"
+          },
+          "title": "Breakpoints",
+          "type": "array"
+        },
+        "brokenSegmentIds": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Brokensegmentids",
+          "type": "array"
+        },
+        "coordinates": {
+          "items": {
+            "maxItems": 2,
+            "minItems": 2,
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "type": "array"
+          },
+          "title": "Coordinates",
+          "type": "array"
+        }
+      },
+      "required": [
+        "coordinates",
+        "brokenSegmentIds",
+        "breakPoints"
+      ],
+      "title": "VillageRoute",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "areaName": {
+      "title": "Areaname",
+      "type": "string"
+    },
+    "bbox": {
+      "maxItems": 4,
+      "minItems": 4,
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "title": "Bbox",
+      "type": "array"
+    },
+    "bridges": {
+      "items": {
+        "$ref": "#/$defs/Bridge"
+      },
+      "title": "Bridges",
+      "type": "array"
+    },
+    "buildings": {
+      "items": {
+        "$ref": "#/$defs/Building"
+      },
+      "title": "Buildings",
+      "type": "array"
+    },
+    "confidence": {
+      "$ref": "#/$defs/ConfidenceInfo"
+    },
+    "debrisPolygons": {
+      "items": {
+        "$ref": "#/$defs/AreaPolygon"
+      },
+      "title": "Debrispolygons",
+      "type": "array"
+    },
+    "eventDate": {
+      "title": "Eventdate",
+      "type": "string"
+    },
+    "floodPolygons": {
+      "items": {
+        "$ref": "#/$defs/AreaPolygon"
+      },
+      "title": "Floodpolygons",
+      "type": "array"
+    },
+    "flowPath": {
+      "$ref": "#/$defs/FlowPath"
+    },
+    "hospitals": {
+      "items": {
+        "$ref": "#/$defs/Facility"
+      },
+      "title": "Hospitals",
+      "type": "array"
+    },
+    "kpis": {
+      "$ref": "#/$defs/Kpis"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "metadata": {
+      "$ref": "#/$defs/MetadataInfo"
+    },
+    "osmSnapshotDate": {
+      "title": "Osmsnapshotdate",
+      "type": "string"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance"
+    },
+    "quality": {
+      "$ref": "#/$defs/QualityInfo"
+    },
+    "radarShadowPolygons": {
+      "items": {
+        "$ref": "#/$defs/AreaPolygon"
+      },
+      "title": "Radarshadowpolygons",
+      "type": "array"
+    },
+    "roads": {
+      "items": {
+        "$ref": "#/$defs/Road"
+      },
+      "title": "Roads",
+      "type": "array"
+    },
+    "runId": {
+      "title": "Runid",
+      "type": "string"
+    },
+    "scenes": {
+      "items": {
+        "$ref": "#/$defs/Scene"
+      },
+      "title": "Scenes",
+      "type": "array"
+    },
+    "towns": {
+      "items": {
+        "$ref": "#/$defs/Facility"
+      },
+      "title": "Towns",
+      "type": "array"
+    },
+    "validation": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Validation"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "villages": {
+      "items": {
+        "$ref": "#/$defs/Village"
+      },
+      "title": "Villages",
+      "type": "array"
+    }
+  },
+  "required": [
+    "runId",
+    "bbox",
+    "areaName",
+    "eventDate",
+    "osmSnapshotDate",
+    "scenes",
+    "floodPolygons",
+    "debrisPolygons",
+    "confidence",
+    "radarShadowPolygons",
+    "flowPath",
+    "buildings",
+    "roads",
+    "bridges",
+    "villages",
+    "hospitals",
+    "towns",
+    "kpis",
+    "validation",
+    "provenance",
+    "quality",
+    "limitations",
+    "metadata"
+  ],
+  "title": "RunResult",
+  "type": "object"
+}
